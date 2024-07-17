@@ -9,3 +9,10 @@ Use Spring Initializr or your IDE to create a new Spring Boot project with depen
 Define Entity Classes:
 
 Define entities to represent your social media data, such as User, Post, Analytics, etc., annotated with JPA annotations for persistence.
+Frontend Setup using React
+Create a React App:
+
+Set up a new React application using Create React App or your preferred method.
+Install Necessary Packages:
+
+Install packages like axios for making HTTP requests and any UI libraries you want to use (e.g., reactstrap for Bootstrap components).
