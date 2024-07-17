@@ -16,3 +16,14 @@ Set up a new React application using Create React App or your preferred method.
 Install Necessary Packages:
 
 Install packages like axios for making HTTP requests and any UI libraries you want to use (e.g., reactstrap for Bootstrap components).
+Integrate with Backend APIs:
+
+Adjust API endpoint URLs (axios.get('/api/users')) to match your Spring Boot backend endpoints.
+Run and Test:
+
+Start your React app (npm start) and navigate to see the dashboard in action.
+Notes:
+Security: Implement security measures like JWT authentication and authorization in both the backend and frontend as needed.
+Deployment: Deploy backend and frontend separately (e.g., backend on Heroku, frontend on Netlify) or together depending on your setup.
+Database: If using a database, configure database settings in application.properties (Spring Boot) and adjust entity mappings accordingly.
+This setup provides a basic framework for building a social media analytics dashboard using React for the frontend and Spring Boot for the backend, leveraging RESTful APIs for communication between them. Adjust and expand as per your specific requirements and additional analytics needs.
